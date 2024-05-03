@@ -1,0 +1,14 @@
+/data/*.rar
+/data/fastsurfer_seg_nii_train/*
+/data/fastsurfer_seg_nii_val/*
+*.idea*
+/Trained model/*.pth
+/data/*.zip
+/data/Small NPH dataset _FS/
+/*.csv
+*.pptx
+/data/XAI/
+*.nii.gz
+/data/Small NPH dataset FS output/
+/Trained model/log_overfitting.txt
+/medcam/Papers/
