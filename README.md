@@ -1,5 +1,5 @@
 # iNPH-ResViT(TBA)
-Official Implement of paper 'XXXX'
+Official Implement of paper 'iNPH-ResViT: A Fully Automated and Explainable Deep Learning Pipeline as a Decision Support Tool for the Diagnosis of iNPH on MRI'
 
 [link_TBA](https:test) 
 
