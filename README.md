@@ -1,9 +1,17 @@
 # iNPH-ResViT(TBA)
-Official Implement of paper 'XXXX'
+Official Implement of paper 'iNPH-ResViT: A Fully Automated and Explainable Deep Learning Pipeline as a Decision Support Tool for the Diagnosis of iNPH on MRI'
 
 [link_TBA](https:test) 
 
+
+#### Overview framework of the proposed method
 ![image](data/images/image1.jpg)
+
+
+#### Average iNPH heatmap
+![XAI](https://github.com/wilcamsdington/iNPH-ResViT/assets/115239677/1263701f-8342-41e0-823f-e628c00e57c9)
+
+
 
 Installing or updating the dependencies:
 
