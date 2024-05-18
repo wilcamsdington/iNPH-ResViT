@@ -120,8 +120,6 @@ class Dataset(Dataset):
         orig_nu_o = orig_nu
         orig_nu = orig_nu * mask
         img = torch.cat([seg.unsqueeze(0), orig_nu.unsqueeze(0)], dim=0)
-        # img = torch.cat([orig_nu.unsqueeze(0), orig_nu.unsqueeze(0)], dim=0)  # ViT 3D
-        # img = orig_nu
         if self.data_transform is not None:
             img = self.data_transform(img)  # data augmentation
         if self.Xai:

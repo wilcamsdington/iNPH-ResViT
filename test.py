@@ -21,7 +21,7 @@ def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('--cuda_ordinal', default=0, type=int, metavar='N', help='Specify which graphics card to use')
     parser.add_argument('--cuda', default=True, type=int, metavar='N', help='Specify if cuda')
-    parser.add_argument('--model', default="Reset3D10Attention", type=str, metavar='N', help='Reset3D10Attention, Reset3D18Attention')
+    parser.add_argument('--model', default="Reset3D18Attention", type=str, metavar='N', help='Reset3D10Attention, Reset3D18Attention')
 
     # change test data set path and model path
     parser.add_argument('--test_path', default=r'data\fastsurfer_seg_nii_test', type=str, metavar='N', help='test dir')
